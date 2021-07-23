@@ -1,16 +1,16 @@
 # Data Arena Assets
 
-##### Unreal Engine 4 plugin for the UTS Data Arena
+#### Unreal Engine 4 plugin for the UTS Data Arena
 The DA Assets plugin allows easy access to input devices used in the [UTS Data Arena](https://dataarena.net) theatre. Currently classes include access to our 3DConnexion SpaceMouse, and up to 8 trackers in our Optitrack Motion Capture system. Include this plugin in your project to quickly utilise our immersive input interfaces and take your project to the next level.
 
 > 👉 We have locked off support for **Unreal Engine 4.25** projects (as of July 2021). We are currently working on more recent versions of the engine but for now require projects built in **4.25.4** or older.
 
 ## 🖲 Currently supported devices
 
-##### 3DConnexion SpaceMouse
+#### 3DConnexion SpaceMouse
 Our six degree-of-freedom SpaceMouse is commonly used for wireless navigation of 3D scenes in the Data Arena. The [SpaceMouse](https://3dconnexion.com/uk/product/spacemouse-wireless/) provides high precision translation and rotation movements in X, Y and Z dimensions, as well as two function buttons. Our main use for the SpaceMouse is virtual camera control. The included `SpaceNavCamera` actor will add a standard [Camera Actor](https://docs.unrealengine.com/4.26/en-US/Basics/Actors/CameraActors/) to your project with pre-defined SpaceMouse axis bindings for steering and access to axis sensitivity and friction control in the details panel. Of course, you aren't limited to camera control and can make use of the SpaceMouse channels however you wish by simply adding the `DA_SpaceMouse` actor to your project.
 
-##### Motion Capture Trackers
+#### Motion Capture Trackers
 The Data Arena has 12-camera Optitrack Motion Capture system installed that can capture infrared marker balls in the theatre. Our main use for this system is to utilise "Rigid Body" *Trackers*. A tracker is a small card of 3 markers points that we can access the position and rotation of in the Data Arena theatre down to a few millimetres. We can support up to 8 trackers that can enable multi-user participation where everyone can have a control device for any purpose. The included `TrackerCursor` class will let you add an on-screen cursor to your project for multi-user interaction with scene objects. A "flip" gesture will let users pickup and drop objects as seen in our [Cozy Living Room](https://dataarena.net/projects/cozy-living-room) project. As with the SpaceMouse, you can make use of Tracker data for any purpose by adding a `DA_Tracker` cursor to your project.
 
 
