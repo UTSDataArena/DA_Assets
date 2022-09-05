@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
+	"VersionName": "3.2",
 	"FriendlyName": "UTS Data Arena",
 	"Description": "Assets for easy interfacing with input devices at the UTS Data Arena.",
 	"Category": "Other",
