@@ -4,7 +4,7 @@
 	"VersionName": "3.2",
 	"FriendlyName": "DA Assets",
 	"Description": "Assets for easy interfacing with input devices at the UTS Data Arena.",
-	"Category": "Other",
+	"Category": "Input Devices",
 	"CreatedBy": "UTS Data Arena",
 	"CreatedByURL": "https://dataarena.net",
 	"DocsURL": "",
