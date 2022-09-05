@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "3.2",
-	"FriendlyName": "UTS Data Arena",
+	"FriendlyName": "DA Assets",
 	"Description": "Assets for easy interfacing with input devices at the UTS Data Arena.",
 	"Category": "Other",
 	"CreatedBy": "UTS Data Arena",
