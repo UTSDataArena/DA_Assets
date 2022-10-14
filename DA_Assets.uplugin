@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "4.1",
+	"VersionName": "4.2",
 	"FriendlyName": "DA Assets",
 	"Description": "Assets for easy interfacing with input devices at the UTS Data Arena.",
 	"Category": "Input Devices",
